@@ -1,0 +1,332 @@
+body {
+  overflow-x: hidden;
+}
+
+#preloader {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+#preloader #status {
+  background: url("../img/blood_drop.gif");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+
+.navbar {
+  border-bottom: 3px solid #9cbbc9;
+}
+
+.navbar .navbar-toggler-icon {
+  color: #2f4152;
+}
+
+.navbar .nav-link {
+  font-size: 13px;
+  font-weight: bold;
+  color: #2f4152;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+}
+
+.navbar .nav-link:hover {
+  border: none;
+  border-radius: 5px;
+  background-color: #d93240;
+  color: #ffffff !important;
+  display: inline-block;
+}
+
+.navbar .nav-item.active {
+  border: none;
+  border-radius: 5px;
+  background-color: #d93240;
+}
+
+.navbar .nav-item.active a {
+  color: #ffffff !important;
+}
+
+#showcase {
+  position: relative;
+  background: url("../img/blood-donation-2603649_1920.jpg") no-repeat;
+  background-size: cover;
+  background-position-y: -100px;
+  min-height: 700px;
+  margin-top: -4px;
+}
+
+#showcase .primary-overlay {
+  background-color: rgba(47, 65, 82, 0.562);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 700px;
+}
+
+#showcase #showcase_content {
+  margin-top: 150px;
+}
+
+#showcase #showcase_content h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.fas {
+  font-size: 55px;
+  color: #d93240;
+}
+
+.fa {
+  font-size: 55px;
+  position: relative;
+  color: #d93240;
+}
+
+.card:hover {
+  -webkit-box-shadow: 3px 3px 3px 4px #2f4152;
+          box-shadow: 3px 3px 3px 4px #2f4152;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#explore-section {
+  position: relative;
+  background: url("../img/Background-image-1.jpeg") no-repeat;
+  background-size: cover;
+  min-height: 280px;
+  background-position: 0, -300px;
+  background-attachment: fixed;
+}
+
+#explore-section .dark-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0, -400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#video-play .dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#doctor-section .fa {
+  font-size: 25px;
+}
+
+#doctor-section .card:hover {
+  -webkit-transition: 0.1s all ease-in-out;
+  transition: 0.1s all ease-in-out;
+  margin-top: 10px;
+}
+
+#doctor-section h1 {
+  border-bottom: 2px solid #d93240;
+  padding: 20px;
+}
+
+#donar-section .info-header {
+  border-bottom: 2px solid #d93240;
+  width: 50%;
+  margin: auto;
+}
+
+#donar-section .card {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#donar-section .card img {
+  margin-top: -50px;
+}
+
+#donar-section .card:hover {
+  background-color: #2f4152;
+  color: white;
+}
+
+#donar-section .card:hover .fa {
+  color: white;
+}
+
+#donar-section .fa {
+  font-size: 25px;
+}
+
+#newsletter-section .fa {
+  font-size: 25px;
+  color: white;
+}
+
+#main-footer {
+  background-color: #d93240;
+  color: white;
+}
+
+#main-footer h4 {
+  margin-left: 28px;
+}
+
+#main-footer ul {
+  list-style-type: circle;
+}
+
+#main-footer ul a {
+  text-decoration: none;
+  color: white;
+}
+
+#main-footer ul a:hover {
+  color: #c9c1c1;
+}
+
+#main-footer .social-media {
+  width: 50px;
+  height: 50px;
+  background-color: #292728;
+  border-radius: 5px;
+  margin: 8px;
+  -webkit-box-shadow: 4px 4px 4px 2px #3808089f;
+          box-shadow: 4px 4px 4px 2px #3808089f;
+}
+
+#main-footer .social-media .fa {
+  color: whitesmoke;
+  font-size: 30px;
+  padding: 12px;
+}
+
+#main-footer #facebook:hover {
+  background-color: #3b5999;
+}
+
+#main-footer #twitter:hover {
+  background-color: #55acee;
+}
+
+#main-footer #instagram:hover {
+  background-color: #e4405f;
+}
+
+#main-footer #youtube:hover {
+  background-color: #cd201f;
+}
+
+#main-footer #linkedin:hover {
+  background-color: #0077b5;
+}
+
+#main-footer .first-row {
+  padding-bottom: 20px;
+}
+
+#main-footer .second-row {
+  border-top: 1px solid #e45864;
+}
+
+#main-section {
+  min-height: 550px;
+}
+
+#main-section h2 {
+  border-bottom: 2px solid #58636d;
+  padding-bottom: 15px;
+  width: 50%;
+  margin: auto;
+}
+
+#main-section button {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#contacts-section {
+  min-height: 500px;
+}
+
+#contacts-section h2 {
+  padding-bottom: 20px;
+  border-bottom: 2px solid #dad8d8;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  color: #3b5999;
+}
+
+#login-section {
+  min-height: 400px;
+}
+
+#login-section .fa {
+  font-size: 35px;
+}
+
+#login-section .card {
+  -webkit-box-shadow: 2px 2px 3px 4px #2f4152;
+          box-shadow: 2px 2px 3px 4px #2f4152;
+}
+
+#help-section .card {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: black;
+}
+
+#help-section .fas {
+  font-size: 20px;
+  color: white;
+}
+
+#cover-section {
+  background: url("../img/about.jpeg");
+  background-attachment: fixed;
+  background-position: -250px;
+  min-height: 200px;
+  text-align: center;
+  color: white;
+}
+
+#about-section img {
+  width: 400px;
+  height: 400px;
+  margin-top: -50px;
+}
+
+#icon-section .fas {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,9 +1,9 @@
 ---
 
-- Author-Name: Md. Touhidul Islam Shawan \*
-- Project Name: Blood Donor \*
-- Created on : 23 November 2018 \*
-- A static Web Site Template \*
+- Author-Name: Md. Touhidul Islam Shawan 
+- Project Name: Blood Donor 
+- Created on : 23 November 2018 
+- A static Web Site Template 
 
 ---
 

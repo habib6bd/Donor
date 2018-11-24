@@ -87,6 +87,7 @@ body {
 .fas {
     font-size: $icon-size;
     color: #d93240;
+    // background: black;
 }
 
 .fa {
@@ -300,7 +301,7 @@ body {
     }
 }
 
-#icon-section {
+#content-section {
     .fas {
         color: white;
     }

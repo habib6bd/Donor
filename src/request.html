@@ -1,175 +1,243 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Blood Donar</title>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
-
+  <body>
     <header id="header">
-        <nav class="navbar navbar-expand-md navbar-light bg-light  py-3 fixed-top">
-            <div class="container">
-                <a href="index.html"><img src="img/Blood logo3.png" width="70px" height="70px" class="img-fluid" alt="Logo Here"></a>
-                <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="index.html">Home </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="request.html">Request For Blood<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contacts.html">Contacts</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="login.html">Log In</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="help.html">Help Desk</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light  py-3 fixed-top"
+      >
+        <div class="container">
+          <a href="index.html"
+            ><img
+              src="img/Blood logo3.png"
+              width="70px"
+              height="70px"
+              class="img-fluid"
+              alt="Logo Here"
+          /></a>
+          <button
+            class="navbar-toggler hidden-lg-up"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item ">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="request.html"
+                  >Request For Blood<span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Contacts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="help.html">Help Desk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <!-- Main Section -->
     <!-- Request For blood form -->
 
     <section class="py-5 mt-5 bg-dark text-white" id="main-section">
-        <div class="container">
-            <h2 class="text-center mt-4">Request For Blood</h2>
-            <div class="row">
-                <div class="col-md-6 pt-3">
-                    <form action="">
-                        <div class="form-group">
-                            <label for="name">Your Name</label>
-                            <input type="text" class="form-control " name="person_name" id="person" aria-describedby="helpId" placeholder="Enter your name">
-                        </div>
-                        <div class="form-group">
-                            <label for="number">Your Phone Number</label>
-                            <input type="number" class="form-control " name="phone_number" id="phoneNumber" aria-describedby="helpId" placeholder="Enter your phone number">
-                        </div>
-                        <div class="form-group">
-                            <label for="location">Your Location</label>
-                            <input type="text" class="form-control " name="phone_number" id="phoneNumber" aria-describedby="helpId" placeholder="Enter your location ">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-md-6 pt-3">
-                    <div class="form-group">
-                        <label for="">Select Blood Group</label>
-                        <select class="custom-select" name="" id="">
-                            <option selected>O (+)</option>
-                            <option value="">O (-)</option>
-                            <option value="">A (+)</option>
-                            <option value="">A (-)</option>
-                            <option value="">AB (+)</option>
-                            <option value="">AB (-)</option>
-                            <option value="">B (+)</option>
-                            <option value="">B (-)</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="">Number of Bags</label>
-                        <select class="custom-select" name="" id="">
-                            <option selected>1 Bag</option>
-                            <option value="">2 Bags</option>
-                            <option value="">3 Bags</option>
-                            <option value="">4 Bags</option>
-                            <option value="">5 Bags</option>
-                            <option value="">6 Bags</option>
-                            <option value="">7 Bags</option>
-                            <option value="">8 Bags</option>
-                            <option value="">9 Bags</option>
-                            <option value="">10 Bags</option>
-                        </select>
-                    </div>
+      <div class="container">
+        <h2 class="text-center mt-4">Request For Blood</h2>
+        <div class="row">
+          <div class="col-md-6 pt-3">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input
+                  type="text"
+                  class="form-control "
+                  name="person_name"
+                  id="person"
+                  aria-describedby="helpId"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="number">Your Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control "
+                  name="phone_number"
+                  id="phoneNumber"
+                  aria-describedby="helpId"
+                  placeholder="Enter your phone number"
+                />
+              </div>
+              <div class="form-group">
+                <label for="location">Your Location</label>
+                <input
+                  type="text"
+                  class="form-control "
+                  name="phone_number"
+                  id="phoneNumber"
+                  aria-describedby="helpId"
+                  placeholder="Enter your location "
+                />
+              </div>
+            </form>
+          </div>
+          <div class="col-md-6 pt-3">
+            <div class="form-group">
+              <label for="">Select Blood Group</label>
+              <select class="custom-select" name="" id="">
+                <option selected>O (+)</option>
+                <option value="">O (-)</option>
+                <option value="">A (+)</option>
+                <option value="">A (-)</option>
+                <option value="">AB (+)</option>
+                <option value="">AB (-)</option>
+                <option value="">B (+)</option>
+                <option value="">B (-)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="">Number of Bags</label>
+              <select class="custom-select" name="" id="">
+                <option selected>1 Bag</option>
+                <option value="">2 Bags</option>
+                <option value="">3 Bags</option>
+                <option value="">4 Bags</option>
+                <option value="">5 Bags</option>
+                <option value="">6 Bags</option>
+                <option value="">7 Bags</option>
+                <option value="">8 Bags</option>
+                <option value="">9 Bags</option>
+                <option value="">10 Bags</option>
+              </select>
+            </div>
 
-                    <div class="form-group">
-                        <label for="">Select when you need Blood</label>
-                        <input type="date" class=" form-control " name="date " id="date " aria-describedby=" helpId " placeholder=" ">
-                    </div>
-                </div>
+            <div class="form-group">
+              <label for="">Select when you need Blood</label>
+              <input
+                type="date"
+                class=" form-control "
+                name="date "
+                id="date "
+                aria-describedby=" helpId "
+                placeholder=" "
+              />
             </div>
-            <div class="row">
-                <button type="submit" class="btn btn-outline-danger btn-lg text-center">Request For Blood</button>
-            </div>
+          </div>
         </div>
-
+        <div class="row">
+          <button
+            type="submit"
+            class="btn btn-outline-danger btn-lg text-center"
+          >
+            Request For Blood
+          </button>
+        </div>
+      </div>
     </section>
-
 
     <!-- Main Footer -->
 
     <section id="main-footer" class="py-5">
-        <div class="container">
-            <div class="row pb-2 first-row">
-                <div class="col-md-6 col-lg-4">
-                    <h4 class="pb-1"> Quick Links</h4>
-                    <ul>
-                        <li><a href="#">Find Donar</a> </li>
-                        <li> <a href="#">Contact Us</a></li>
-                        <li> <a href="#">About Us</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <h4 class="pb-1"> Useful Links</h4>
-                    <ul>
-                        <li><a href="#">Link 1</a></li>
-                        <li><a href="#">Link 2</a> </li>
-                        <li><a href="#">Link 3</a> </li>
-                    </ul>
-                </div>
-                <div class="col-md-6 col-lg-4" class="text-center">
+      <div class="container">
+        <div class="row pb-2 first-row">
+          <div class="col-md-6 col-lg-4">
+            <h4 class="pb-1">Quick Links</h4>
+            <ul>
+              <li><a href="#">Find Donar</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <h4 class="pb-1">Useful Links</h4>
+            <ul>
+              <li><a href="#">Link 1</a></li>
+              <li><a href="#">Link 2</a></li>
+              <li><a href="#">Link 3</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-lg-4" class="text-center">
+            <h4 class="pb-1">Connect with Us</h4>
 
-                    <h4 class="pb-1">Connect with Us</h4>
-
-                    <div class="d-flex flex-row ">
-                        <div class="social-media" id="facebook">
-                            <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
-                        </div>
-                        <div class="social-media" id="twitter">
-                            <a href="https://twitter.com/" target="_blank"> <i class="fa fa-twitter"></i> </a>
-                        </div>
-                        <div class="social-media" id="instagram">
-                            <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram"></i></a>
-                        </div>
-                        <div class="social-media" id="youtube">
-                            <a href="https://www.youtube.com/" target="_blank"> <i class="fa fa-youtube"></i> </a>
-                        </div>
-                        <div class="social-media" id="linkedin">
-                            <a href="https://www.linkedin.com" target="_blank"> <i class="fa fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
+            <div class="d-flex flex-row ">
+              <div class="social-media" id="facebook">
+                <a href="https://www.facebook.com/" target="_blank">
+                  <i class="fa fa-facebook"></i
+                ></a>
+              </div>
+              <div class="social-media" id="twitter">
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </div>
+              <div class="social-media" id="instagram">
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fa fa-instagram"></i
+                ></a>
+              </div>
+              <div class="social-media" id="youtube">
+                <a href="https://www.youtube.com/" target="_blank">
+                  <i class="fa fa-youtube"></i>
+                </a>
+              </div>
+              <div class="social-media" id="linkedin">
+                <a href="https://www.linkedin.com" target="_blank">
+                  <i class="fa fa-linkedin"></i
+                ></a>
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div class="row pt-5 second-row">
-                <div class="col text-center ">
-                    <h5>Blood Donar &copy; 2018</h5>
-                    <small>Design and Developed by Touhidul Shawan</s>
-                </div>
-            </div>
+        <div class="row pt-5 second-row">
+          <div class="col text-center ">
+            <h5>Blood Donar &copy; 2018</h5>
+            <small>Design and Developed by Touhidul Shawan</small>
+          </div>
+        </div>
+      </div>
     </section>
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -178,7 +246,5 @@
     <script src=" https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js "></script>
     <script src=" js/slick.js "></script>
     <script src=" js/mainScript.js "></script>
-
-</body>
-
+  </body>
 </html>
